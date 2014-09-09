@@ -49,7 +49,7 @@ Module::Build::Scintilla::stc_builderclass()->new(
 	meta_merge => {
 		resources => {
 			homepage   => 'http://padre.perlide.org/',
-			repository => 'http://svn.perlide.org/padre/trunk/Wx-Scintilla/',
+			repository => 'https://github.com/PadreIDE/Wx-Scintilla/',
 		},
 		no_index => {
 			directory => [qw<tools wx-scintilla cpp inc>],
